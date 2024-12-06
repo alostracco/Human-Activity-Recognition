@@ -6,10 +6,8 @@ This project compares the effectiveness of different machine learning models, sp
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Contact](#contact)
 
 ## Installation
-
 To get started with this project, follow the steps below to clone the repository and install the necessary dependencies:
  - git clone https://github.com/alostracco/Human-Activity-Recognition.git
  - cd Human-Activity-Recognition
@@ -35,7 +33,3 @@ Time-Series Dataset: The dataset consists of 3D positional values from wearable 
 Machine Learning Models:
  - RNN: A simple Recurrent Neural Network model for time-series classification.
  - LSTM: A more advanced Long Short-Term Memory network designed to capture long-term dependencies in sequential data.
-
-
-## Contact
-
