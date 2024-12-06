@@ -7,7 +7,6 @@ This project compares the effectiveness of different machine learning models, sp
 - [Usage](#usage)
 - [Features](#features)
 - [Contact](#contact)
-- [License](#license)
 
 ## Installation
 
@@ -37,4 +36,6 @@ Machine Learning Models:
  - RNN: A simple Recurrent Neural Network model for time-series classification.
  - LSTM: A more advanced Long Short-Term Memory network designed to capture long-term dependencies in sequential data.
 
+
+## Contact
 
