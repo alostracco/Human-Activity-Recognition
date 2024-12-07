@@ -12,18 +12,11 @@ def prepare_data_for_models(
     # Load segmented data from previous preprocessing
     X = np.load(data_path)
     labels_df = pd.read_csv(labels_path)
-
-    print("X shape:", X.shape)
-    print("y shape:", y.shape)
     
     # Prepare features and labels
-    X = X.reshape(-1, window_size, 3)  # Ensure 3D shape: [samples, timesteps, features]
+    X = X.reshape(-1, window_size, 3) 
     y = labels_df['activity'].values
 
-    print("X shape:", X.shape)
-    print("y shape:", y.shape)
-
-    # Train-test split
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, 
         test_size=test_size, 
